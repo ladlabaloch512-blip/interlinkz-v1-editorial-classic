@@ -257,6 +257,9 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .yellow-boxes .yb{background:var(--y);border-radius:8px;padding:17px 30px;font-size:24px;color:var(--ink)}
 .yellow-boxes .yl{flex:1;height:3px;background:var(--c);min-width:18px}
 
+body.page-contact #ilz-launcher{bottom:96px}
+body.page-contact #ilz-panel{bottom:166px}
+
 /* responsive */
 @media(max-width:1020px){
  .ed-cols{grid-template-columns:repeat(2,1fr);gap:26px}
@@ -281,9 +284,13 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 @media(max-width:760px){
  .wrap{padding:0 20px}
  .page-frame{padding:0 20px}
- .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:14px 20px 20px;border-bottom:1px solid var(--line);gap:14px;margin-left:0}
- .main-nav.open{display:flex}
+ .main-nav{display:flex;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:0 20px;border-bottom:1px solid var(--line);gap:14px;margin-left:0;max-height:0;overflow:hidden;opacity:0;transform:translateY(-10px);visibility:hidden;transition:max-height .34s ease,opacity .3s ease,transform .34s ease,padding .34s ease,visibility 0s linear .34s}
+ .main-nav.open{max-height:70vh;padding-top:14px;padding-bottom:20px;opacity:1;transform:translateY(0);visibility:visible;transition:max-height .34s ease,opacity .3s ease,transform .34s ease,padding .34s ease}
  .nav-toggle{display:block}
+ .nav-toggle span{transition:transform .3s ease,opacity .25s ease}
+ .nav-toggle.open span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .nav-toggle.open span:nth-child(2){opacity:0}
+ .nav-toggle.open span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
  .btn-head{display:none}
  .home-hero h1{font-size:42px}
  .svc-hero h1{font-size:42px}
@@ -294,15 +301,32 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
  .cta-in{flex-direction:column;align-items:flex-start}
  .cta-in h2{font-size:32px}
  .cta-in .btn{margin-left:0}
- .process-row{flex-wrap:wrap}
+ .process-row{flex-direction:column;align-items:flex-start;gap:9px}
+ .process-row .p-line{width:1.5px;height:26px;flex:none;margin-left:7px;min-width:0}
+ .process-row .p-label{margin-right:0;margin-bottom:4px}
  .chain-sec{grid-template-columns:1fr}
- .dotchain{flex-wrap:wrap}
- .dotchain .w{font-size:20px}
- .dotchain .arr{min-width:14px}
- .pf-chain .row{flex-wrap:wrap}
+ .dotchain{flex-direction:column;align-items:flex-start;gap:9px}
+ .dotchain .w{font-size:21px}
+ .dotchain .arr{width:5px;height:24px;flex:none;margin-left:6px;min-width:0}
+ .dotchain .arr:after{right:auto;left:50%;top:auto;bottom:-1px;transform:translateX(-50%);border-left:7px solid transparent;border-right:7px solid transparent;border-top:11px solid var(--y);border-bottom:0}
+ .dotchain .arr.last{flex:none;height:24px}
+ .chain-icons{flex-direction:column;align-items:flex-start;gap:9px}
+ .chain-icons .cline{width:1.5px;height:24px;flex:none;margin-left:12px;min-width:0}
+ .grey-chain{flex-direction:column;align-items:flex-start;gap:9px}
+ .grey-chain .gl{width:1.5px;height:24px;flex:none;margin-left:7px;min-width:0}
+ .pf-chain .row{flex-direction:column;gap:9px}
+ .pf-chain .conn{flex-direction:column;align-items:center;gap:0}
+ .pf-chain .cline2{width:3.5px;height:16px}
+ .pf-hero h1,.pf-hero .honest{position:relative;z-index:1}
+ .chips{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+ .chip{width:100%;text-align:center;padding:9px 8px}
  .boxchain .lk svg{width:32px}
  .boxchain .bx{font-size:15px;padding:10px 10px}
- .svc-row{grid-template-columns:34px 1fr}
+ .svc-row{display:block;padding:18px 0}
+ .svc-row .num{margin-right:10px}
+ .svc-row h3{display:inline;font-size:20px}
+ .svc-row p{margin-top:8px}
+ .svc-row .view{display:inline-block;margin-top:8px}
  .demo-grid{grid-template-columns:1fr}
  .cover-cards{grid-template-columns:1fr 1fr}
  .next-cards{grid-template-columns:1fr}
@@ -318,7 +342,7 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
  .footer-in{flex-wrap:wrap}
  .foot-right{margin-left:0;flex-wrap:wrap;white-space:normal}
  .watermark{height:480px}
- .z-watermark{width:170px}
+ .z-watermark{width:130px;opacity:.35}
  .chain-icons{flex-wrap:wrap}
  .interlink-wrap{grid-template-columns:1fr}
 }
