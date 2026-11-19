@@ -5,7 +5,7 @@
 var ILZ_CHAT_CONFIG = {
   mode: "rules",
   aiEndpoint: "",
-  whatsappNumber: ""
+  whatsappNumber: "923249476992"
 };
 document.addEventListener('DOMContentLoaded', function () {
   var root = document.getElementById('ilz-chat-root');
