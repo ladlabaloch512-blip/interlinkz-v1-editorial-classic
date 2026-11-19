@@ -257,8 +257,7 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .yellow-boxes .yb{background:var(--y);border-radius:8px;padding:17px 30px;font-size:24px;color:var(--ink)}
 .yellow-boxes .yl{flex:1;height:3px;background:var(--c);min-width:18px}
 
-body.page-contact #ilz-launcher{bottom:96px}
-body.page-contact #ilz-panel{bottom:166px}
+body.page-contact #ilz-launcher{display:none}
 
 /* responsive */
 @media(max-width:1020px){
@@ -345,4 +344,12 @@ body.page-contact #ilz-panel{bottom:166px}
  .z-watermark{width:130px;opacity:.35}
  .chain-icons{flex-wrap:wrap}
  .interlink-wrap{grid-template-columns:1fr}
+ .bg-block{min-width:0}
+ .boxchain .lk{min-width:0}
+ .boxchain .lk svg{width:100%;max-width:32px}
+ .boxchain .bx{padding:10px 8px}
+ .grey-block{flex-direction:column;align-items:flex-start;gap:18px}
+ .grey-block .btn{margin-left:0}
+ .yellow-boxes .yb{padding:10px 12px;font-size:17px}
+ .yellow-boxes .yl{min-width:8px}
 }
