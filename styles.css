@@ -110,7 +110,7 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .nextlink-row .nl-label{font-size:24px;font-weight:800}
 .nl-col h4{font-size:21px;font-weight:800}
 .nl-col a{font-size:16px}
-.nl-col a .chev{color:#d9a400;font-weight:800}
+.nl-col a .chev{color:#242428;font-weight:800}
 .nl-col a:hover{text-decoration:underline}
 .start-one{display:flex;align-items:center;gap:26px}
 .start-one h2{font-size:30px;font-weight:800;color:var(--ink);white-space:nowrap}
@@ -122,7 +122,7 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .nl-list h3{font-size:21px;font-weight:800;margin-bottom:12px}
 .nl-list .nl-item{margin-bottom:14px}
 .nl-list .nl-item h4{font-size:18px;font-weight:700}
-.nl-list .nl-item a{font-size:14.5px;color:#8a6d00}
+.nl-list .nl-item a{font-size:14.5px;color:#242428}
 .nl-list .nl-item a:hover{text-decoration:underline}
 .custom-sec{background:var(--grey);margin-top:56px}
 .custom-in{display:grid;grid-template-columns:170px 1.05fr 1fr;gap:34px;max-width:1240px;margin:0 auto;padding:38px 32px 44px}
@@ -171,9 +171,9 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .cover-cards .cc p{font-size:16.5px}
 .next-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .next-card{border:1px solid #bdbdbd;border-radius:10px;padding:16px 18px;min-height:170px;display:flex;flex-direction:column;color:inherit}
-.next-card small{color:#d9a400;font-size:15px;display:flex;justify-content:space-between}
+.next-card small{color:#242428;font-size:15px;display:flex;justify-content:space-between}
 .next-card h4{font-size:23px;font-weight:800;margin:auto 0}
-.next-card .bot{color:#d9a400;font-size:15px;display:flex;justify-content:space-between}
+.next-card .bot{color:#242428;font-size:15px;display:flex;justify-content:space-between}
 .grey-block{background:var(--grey);padding:26px 28px;position:relative;overflow:hidden;min-height:150px;display:flex;align-items:center;gap:20px}
 .grey-block h2{font-size:32px;margin:0;position:relative;z-index:1}
 .grey-block .btn{position:relative;z-index:1;margin-left:auto;flex:none}
@@ -247,7 +247,6 @@ h1.heavy,h2.heavy{font-weight:800;letter-spacing:-1px;line-height:1.04;color:var
 .contact-big{padding-top:66px}
 .contact-big a{display:block;font-size:41px;color:var(--ink);margin-bottom:26px;letter-spacing:-.5px}
 .contact-big a:hover{text-decoration:underline}
-@media(min-width:1021px){.contact-grid{gap:158px}}
 .one-link-note{position:absolute;right:-146px;top:45%;width:118px;font-size:14.5px;line-height:1.35}
 .one-link-note .dots{border-top:3px dotted var(--y);width:58px;margin-bottom:8px}
 .one-link-note svg{margin-top:8px}
@@ -373,7 +372,7 @@ body.page-contact #ilz-launcher{display:none}
 .home-blog{margin-top:64px}
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:26px}
 .post-card{border:1px solid #bdbdbd;border-radius:8px;padding:20px;background:#fff;display:flex;flex-direction:column}
-.post-card small{font-size:13.5px;letter-spacing:1.5px;color:#8a6d00;display:block;margin-bottom:8px}
+.post-card small{font-size:13.5px;letter-spacing:1.5px;color:#242428;display:block;margin-bottom:8px}
 .post-card h3{font-size:20px;font-weight:800;line-height:1.3;margin-bottom:8px}
 .post-card p{font-size:15.5px;flex:1}
 .post-card .read{margin-top:14px;font-size:15.5px;font-weight:700}
@@ -382,7 +381,7 @@ body.page-contact #ilz-launcher{display:none}
 .faq-list{margin-top:22px;border-top:1px solid var(--line)}
 .faq-item{border-bottom:1px solid var(--line)}
 .faq-q{width:100%;background:none;border:0;font-family:inherit;font-size:18.5px;font-weight:700;color:var(--ink);text-align:left;padding:18px 34px 18px 0;cursor:pointer;position:relative;line-height:1.35}
-.faq-sign{position:absolute;right:2px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:#8a6d00;transition:transform .3s ease}
+.faq-sign{position:absolute;right:2px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:#242428;transition:transform .3s ease}
 .faq-item.open .faq-sign{transform:translateY(-50%) rotate(45deg)}
 .faq-a{overflow:hidden;transition:max-height .35s ease}
 .faq-a p{font-size:16.5px;padding:0 34px 20px 0;max-width:820px}
@@ -410,7 +409,7 @@ body.page-contact #ilz-launcher{display:none}
 .role-list li:before{content:"";position:absolute;left:0;top:19px;width:8px;height:8px;border-radius:50%;background:var(--y)}
 @media(max-width:1020px){.post-grid,.team-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.post-grid,.team-grid{grid-template-columns:1fr}.foot-links{flex-direction:column;align-items:flex-start}.foot-legal{margin-left:0}.post-hero h1{font-size:32px}.sec-title{font-size:27px}}
-.view-demo{display:inline-block;margin-top:8px;font-size:15.5px;font-weight:700;color:#8a6d00}
+.view-demo{display:inline-block;margin-top:8px;font-size:15.5px;font-weight:700;color:#242428}
 .view-demo:hover{text-decoration:underline}
 .demo-visual{border:1px solid #bdbdbd;border-radius:8px;overflow:hidden;margin-top:26px}
 .demo-visual svg{display:block;width:100%;height:auto}
@@ -424,7 +423,7 @@ body.page-contact #ilz-launcher{display:none}
 .step-sec p{font-size:17px;line-height:1.65;max-width:760px;margin-bottom:14px}
 .step-sec .gets{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:16px;max-width:900px}
 .step-sec .get{border:1px solid #bdbdbd;border-radius:8px;padding:18px 20px;background:#fff}
-.step-sec .get small{font-size:13px;letter-spacing:1.5px;color:#8a6d00;display:block;margin-bottom:6px}
+.step-sec .get small{font-size:13px;letter-spacing:1.5px;color:#242428;display:block;margin-bottom:6px}
 .step-sec .get p{font-size:15.5px;margin:0}
 .pkg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:30px}
 .pkg-card{border:1.5px solid var(--c);border-radius:8px;padding:24px;background:#fff;display:flex;flex-direction:column}
@@ -444,3 +443,83 @@ body.page-contact #ilz-launcher{display:none}
 
 .site-footer.dark .tagline{color:#fff}
 .footer-in,.foot2-in{flex-wrap:wrap}
+
+/* UI/UX REVIEW ROUND 2026-11-20 (Variant 1, 50 approved items) */
+.nl-list .nl-item a{color:var(--c)}
+.post-card small{color:var(--c)}
+.view-demo{color:var(--c)}
+.step-sec .get small{color:var(--c)}
+.chip{border-radius:8px}
+.demo-label{border-radius:8px}
+.demo-card .thumb img{display:block;width:100%;height:auto}
+.demo-visual img{display:block;width:100%;height:auto}
+.demo-sub{font-size:15px;color:#444;margin-top:5px}
+.linkchain{display:flex;align-items:center;gap:14px}
+.lc-step{display:flex;align-items:center;gap:9px;flex:none}
+.lc-node{width:15px;height:15px;border-radius:50%;background:var(--y);border:2px solid var(--c);flex:none}
+.lc-word{font-size:20px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.lc-line{flex:1;height:2px;background:#9a9a9a;min-width:26px}
+.chain-row{display:flex;align-items:center;gap:22px}
+.chain-row .linkchain{flex:1}
+.chain-label{font-size:15px;letter-spacing:1.5px;font-weight:700;white-space:nowrap}
+.foot-cols{display:flex;gap:54px;margin-left:40px}
+.foot-col h4{font-size:13.5px;letter-spacing:1.5px;margin-bottom:8px}
+.foot-col a{display:block;font-size:15px;padding:2px 0;white-space:nowrap}
+.foot-col a:hover{text-decoration:underline}
+.footer-in{align-items:flex-start}
+.pkg-card.pkg-mid{border-top:12px solid var(--c)}
+.post-date{font-size:14px;color:#555;margin:2px 0 8px}
+.soon-tag{float:right;background:var(--c);color:#fff;font-size:12.5px;letter-spacing:1px;padding:3px 10px;border-radius:6px;font-weight:700}
+.all-articles{display:inline-block;font-size:15px;font-weight:700;text-decoration:underline;margin-bottom:12px}
+.step-label{font-size:14px;letter-spacing:2px;font-weight:700;color:var(--c);margin-bottom:10px;display:inline-block;box-shadow:inset 0 -3px 0 var(--y);padding-bottom:3px}
+.step-sec p{max-width:900px}
+.detail-intro{font-size:18px;line-height:1.6;max-width:640px;margin-top:18px}
+.nl-link{display:flex;align-items:baseline;gap:8px}
+.nl-link h4{font-size:21px;font-weight:800}
+.nl-link .chev{font-size:22px;font-weight:800;color:var(--c)}
+.nl-link:hover h4{text-decoration:underline}
+.contact-stack{display:flex;flex-direction:column;gap:22px;padding-top:8px}
+.cs-row{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.cs-k{font-size:13.5px;letter-spacing:2px;font-weight:700}
+.cs-row a,.cs-row>span{font-size:19px}
+.cs-row a:hover{text-decoration:underline}
+.contact-chain{margin-top:56px}
+.faq-q{padding-right:54px}
+.faq-sign{color:var(--c);font-size:26px;width:38px;height:38px;border:1.5px solid var(--c);border-radius:8px;display:flex;align-items:center;justify-content:center;right:0;background:#fff}
+.team-card .t-vis img{width:34px}
+.apply-box{max-width:none}
+.careers-close{font-size:17.5px;margin-top:44px;line-height:1.6}
+.careers-close a{text-decoration:underline;font-weight:700}
+.role-list li .role-desc{display:block;font-size:15px;color:#444;margin-top:2px}
+.svc-hero h1{line-height:1.12}
+.z-watermark{width:190px;right:14px}
+.home-hero{overflow:hidden}
+.watermark{top:-24px;height:540px}
+.nf img{margin-left:auto;margin-right:auto}
+.svc-chain-mobile{display:none}
+.chip-select{display:none}
+.diagram-block h3{font-size:21px;font-weight:800;margin-bottom:18px}
+.interlink-wrap{grid-template-columns:1fr 250px;align-items:stretch}
+.builtby-box{display:flex;flex-direction:column;align-items:center;justify-content:center}
+@media(min-width:761px){.team-card p{min-height:69px}}
+@media(max-width:1020px){
+ .onelink{display:none}
+ .svc-chain-mobile{display:block;margin-top:34px}
+}
+@media(max-width:760px){
+ .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+ .sec-head .sec-link{margin-left:0}
+ .chips{display:none}
+ .chip-select{display:block;width:100%;margin-top:28px;border:1.5px solid var(--c);border-radius:8px;padding:12px;font-size:16.5px;font-family:inherit;background:#fff;color:var(--c)}
+ .linkchain{flex-direction:column;align-items:flex-start;gap:0}
+ .lc-line{width:2px;height:24px;flex:none;margin-left:7px;min-width:0}
+ .lc-step{padding:2px 0}
+ .chain-row{flex-direction:column;align-items:flex-start;gap:12px}
+ .interlink-wrap{grid-template-columns:1fr}
+ .interlink-names{text-align:center;font-size:15.5px;gap:18px}
+ .interlink-diagram{justify-content:center}
+ .foot-cols{margin-left:0;gap:36px;flex-wrap:wrap}
+ .watermark{height:440px}
+ .pf-chain .linkchain{margin:0 auto}
+}
+.pf-chain .linkchain{max-width:780px;margin-left:auto;margin-right:auto}

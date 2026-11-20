@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded',function(){
    var f=ch.getAttribute('data-filter');
    cards.forEach(function(card){card.style.display=(f==='all'||card.getAttribute('data-cat')===f)?'':'none';});
  });});
+ var sel=document.querySelector('.chip-select');
+ if(sel){sel.addEventListener('change',function(){var f=sel.value;
+   cards.forEach(function(card){card.style.display=(f==='all'||card.getAttribute('data-cat')===f)?'':'none';});
+   chips.forEach(function(c){c.classList.toggle('active',c.getAttribute('data-filter')===f);});});}
  var form=document.getElementById('contactForm');
  if(form){form.addEventListener('submit',function(e){e.preventDefault();document.getElementById('formNote').hidden=false;});}
 });
