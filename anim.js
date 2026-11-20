@@ -13,10 +13,10 @@
       .from(pieces[2], { y: 46, opacity: 0, duration: 0.55, ease: "power2.out" }, "-=0.2");
   }
   // The process nodes light in sequence as the row scrolls into view.
-  var nodes = document.querySelectorAll(".process-row .p-node");
+  var nodes = document.querySelectorAll(".linkchain .lc-node");
   if (nodes.length) {
-    gsap.timeline({ scrollTrigger: { trigger: ".process-row", start: "top 85%" }, repeat: -1, repeatDelay: 1.6 })
-      .to(nodes, { backgroundColor: "#FFCC01", duration: 0.3, stagger: 0.45 })
-      .to(nodes, { backgroundColor: "#ffffff", duration: 0.3, stagger: 0.2 }, "+=0.9");
+    gsap.timeline({ scrollTrigger: { trigger: ".linkchain", start: "top 85%" }, repeat: -1, repeatDelay: 1.6 })
+      .to(nodes, { backgroundColor: "#ffffff", duration: 0.3, stagger: 0.45 })
+      .to(nodes, { backgroundColor: "#FFCC01", duration: 0.3, stagger: 0.2 }, "+=0.9");
   }
 })();
