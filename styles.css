@@ -567,7 +567,7 @@ body.page-contact #ilz-launcher{display:none}
    website and email), Services column, Company column in two link tracks,
    and a single bottom row with the legal links. No link appears twice. */
 .foot-brand{flex:0 0 300px;max-width:300px}
-.foot-col h4{display:inline-block;border-bottom:3px solid var(--yellow);padding-bottom:4px}
+.foot-col h4{display:inline-block;border-bottom:3px solid #FFCC01;padding-bottom:4px}
 .foot-contact{margin:14px 0 0;font-size:15px;line-height:1.55}
 .foot-contact a:hover{text-decoration:underline}
 .footer-in{gap:48px}
